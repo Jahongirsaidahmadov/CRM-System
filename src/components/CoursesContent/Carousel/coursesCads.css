@@ -1,0 +1,75 @@
+
+.content_bottom{
+    height: calc(89vh - 65px);
+    overflow: auto;
+    margin: 0 20px;
+    padding: 24px 0!important;
+    border-radius: 10px;
+    background: #FFFFFF;
+}
+
+.content_bottom_header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.bottom_header_left{
+    display: flex;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-left: 50px;
+}
+.card_count{
+color:  #FFC700;
+    margin-left: 10px;
+    margin-bottom: 0;
+}
+
+.prev{
+    width: 18px;
+    height: 11px;
+    position: absolute;
+    top: -35px;
+    right: 100px;
+}
+.next{
+    width: 18px;
+    height: 11px;
+    margin-left: 20px;
+    top: -35px;
+    right: 60px;
+    position: absolute;
+}
+
+
+.top {
+    position: relative;
+}
+
+.nexprev{
+    border: none;
+    outline: none;
+    height: 0;
+}
+
+
+
+
+.gZZBOx {
+    display: none!important;
+}
+
+@media only screen and (max-width: 1600px){
+    .content_bottom {
+        padding: 8px 0!important;
+        /*background-color: #29B85D;*/
+    }
+    .content_bottom_header{
+        margin-bottom: 10px;
+    }
+
+}

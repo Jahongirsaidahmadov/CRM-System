@@ -1,0 +1,184 @@
+.mymodal {
+    width: 35%;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    border: 1px solid #ccc;
+    background: #fff;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+}
+
+.myoverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transition: opacity 500ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+    opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+    opacity: 0;
+}
+.modalbtn{
+    width: 180px;
+    height: 45px;
+    background: #FFC700;
+    border-radius: 5px;
+    border: none;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    cursor: pointer;
+}
+
+.modal_inputs{
+    display: flex;
+    flex-direction: column;
+}
+.modal_title{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 33px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.modal_label{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #000000;
+    margin-bottom: 5px;
+    /*margin-top: 15px;*/
+}
+.changeInput{
+    display: flex;
+    flex-direction: column;
+}
+.input_select{
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #EBEEF4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #9EAEC5;
+    padding: 0 10px;
+}
+.add_new_categorie{
+    display: flex;
+    flex-direction: row;
+}
+.newAddImg path{
+    fill: #FFC700;
+
+}
+.addicon{
+    cursor: pointer;
+}
+.categorie_text{
+    font-size: 16px;
+   color: #9EAEC5;
+    margin-left: 10px;
+   margin-top: 10px;
+}
+
+.newAdd{
+    color: #FFC700;
+}
+.price_inputs{
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0;
+}
+.price_input_lr{
+    width: 97%;
+    height: 50px;
+    background: #FFFFFF;
+    border: 1px solid #EBEEF4;
+    box-sizing: border-box;
+    border-radius: 5px;
+    outline: none;
+    color: #9EAEC5;
+    padding: 0 10px;
+}
+.hour_inputs{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.date_hour{
+    padding-left: 40px;
+    position: relative;
+}
+
+.dateIcon{
+    position: absolute;
+    top: 40px;
+    padding-left: 10px;
+}
+.file_input{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+}
+.add_top_icon{
+position: relative;
+}
+.fileIcon{
+    position: absolute;
+    top: 40px;
+    right: 10px;
+}
+
+
+
+
+
+.Add_btn{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
